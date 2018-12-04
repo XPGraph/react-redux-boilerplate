@@ -1,6 +1,5 @@
 # react-boilerplate-redux
 
-# yarn install
+##### - yarn install
 
-# yarn start
-
+##### - yarn start
