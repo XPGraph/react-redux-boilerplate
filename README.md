@@ -1,4 +1,4 @@
-# react-boilerplate-redux
+# react-redux-boilerplate
 
 ##### - yarn install
 
