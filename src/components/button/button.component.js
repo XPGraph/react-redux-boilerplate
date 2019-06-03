@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 
 export class Button extends React.PureComponent {
   render () {
+    const { onClick, label } = this.props;
     return (
-      <div
-        onClick={this.props.onClick}
-        className="btn btn-default btn--green m-auto">{this.props.label}</div>
+      <div onClick={onClick} className="btn btn-default btn--green m-auto">
+        {label}
+      </div>
     );
   }
 }
 
-Button.defaultProps = {
-};
+Button.defaultProps = {};
 
 Button.propTypes = {
   onClick: PropTypes.func,

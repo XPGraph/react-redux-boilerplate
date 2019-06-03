@@ -1,22 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {FormGroup} from 'reactstrap';
 
 export class TextInputGroup extends React.PureComponent {
   render () {
+    const { onChange, placeholder, value, groupRender, type, label } = this.props;
+
     return (
-      <FormGroup>
-        <label htmlFor="login-form_name" className="color--light-blue">{this.props.label}</label>
+      <div>
+        <label htmlFor="login-form_name" className="color--light-blue">
+          {label}
+        </label>
         <div className="input-group input-group--password">
-          <input
-            onChange={this.props.onChange}
-            value={this.props.value}
-            type={this.props.type}
-            placeholder={this.props.placeholder}
-            className="form-control"/>
-          {this.props.groupRender}
+          <input onChange={onChange} value={value} type={type} placeholder={placeholder} className="form-control" />
+          {groupRender}
         </div>
-      </FormGroup>
+      </div>
     );
   }
 }
