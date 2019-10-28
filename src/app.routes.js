@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Router, Switch } from 'react-router';
 import { Login, DefaultLayout, LoginLayout } from 'scenes';
-import createHistory from 'history/createBrowserHistory';
+import { createBrowserHistory } from 'history';
 import PropTypes from 'prop-types';
 
-const history = createHistory({});
+const history = createBrowserHistory({});
 
 const DefaultRoute = () => (
   <Router history={history}>
