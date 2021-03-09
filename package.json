@@ -22,7 +22,7 @@
     "dot-prop": "^5.1.1",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "eslint": "^7.0.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-loader": "4.0.2",
