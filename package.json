@@ -89,7 +89,7 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.12.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.1"
   },
   "browserslist": [
